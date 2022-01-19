@@ -30,7 +30,7 @@ class AccountPayment(models.Model):
         pages = []
         pages.append({
             'sequence_number': self.check_number,
-            'payment_date': format_date(self.env, self.payment_date,
+            'date_payment': format_date(self.env, self.date_payment,
                                         date_format='dd-MMM-YYYY'),
             'partner_id': self.partner_id,
             'partner_name': (self.partner_id.name or '').upper(),
