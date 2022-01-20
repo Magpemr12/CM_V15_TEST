@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col col-8"> </div>
             <div class="col col-2 text-left">
-                <span t-esc="page['date_payment']"/>
+                <span t-esc="page['date']"/>
             </div>
             <div class="col col-2"> </div>
         </div>

@@ -8,7 +8,7 @@
                        t-attf-href="/web/content/#{invoice.xml_attach_id.id}?download=true" title="Download.pdf"><i class="fa fa-download"/> XML</a>
                 </div>
             </t>
-            <t t-if="invoice.payment_ids">
+            <t t-if="invoice.payment_id">
                 <div class="btn-group  flex-grow-1 mr-1 mb-1">
                     <a class="btn btn-secondary btn-block o_attachment_download float-right"
                        t-attf-href="/my/invoice/paymentss/#{invoice.id}/?{{ keep_query() }}">Payments</a>
