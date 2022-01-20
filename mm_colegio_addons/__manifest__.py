@@ -28,14 +28,6 @@
         'views/views.xml',
         'views/templates.xml',
         'views/account_payment_view.xml',
-
-        'report/print_check.xml',
-        'report/print_check_generic.xml',
-        'report/print_check_bbva_bancomer.xml',
-        'report/print_check_banamex.xml',
-        'report/print_check_hsbc.xml',
-        'report/print_check_santander.xml',
-        'report/print_check_scotiabank.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
