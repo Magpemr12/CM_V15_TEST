@@ -20,13 +20,22 @@
     'category': 'Uncategorized',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'account'],
+    'depends': ['base', 'account', 'l10n_mx', 'account_check_printing'],
 
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/account_payment_view.xml',
+
+        'report/print_check.xml',
+        'report/print_check_generic.xml',
+        'report/print_check_bbva_bancomer.xml',
+        'report/print_check_banamex.xml',
+        'report/print_check_hsbc.xml',
+        'report/print_check_santander.xml',
+        'report/print_check_scotiabank.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
